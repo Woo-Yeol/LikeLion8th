@@ -83,4 +83,33 @@ git push origin (other.user)
 
 ### Fork
 
-1. 작업하고 싶은
+1. 작업하고 싶은 Repository를 Fork 해오기
+</br></br>     
+     검색 후 찾은 Repository에 들어가 우측 상단의 folk 누르기
+2. 로컬에서 작업하기 + 3. 변경사항을 자신의 branch에 push
+```
+mkdir -     // 작업환경구분
+
+cd -        // 작업환경구분
+
+git clone (url)
+
+---------------코드 수정---------------
+
+git add .
+
+git commit -m "ID_Change" // example
+
+git checkout -b (other.user) // branch 생성
+
+git push origin (other.user)
+```
+
+4. 원본 Repository 소유자에게 Pull Request 요청
+
+**Pull Request**
+```
+base repositry : - / base : -    ->  head repository : - / compare : -
+```
+
+5. 소유자가 Pull Request를 승인하여 Merger하면 자동으로 Collaborator 추가
