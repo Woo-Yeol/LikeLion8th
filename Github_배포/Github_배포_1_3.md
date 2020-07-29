@@ -31,6 +31,7 @@ git status : git 저장소의 상태를 확인
 2. 팀원을 Collaborator 추가하기
 </br>
 경로
+
 ```
 GitHub - Repository - Settings - Manage access - Invite a collaborator
 ```
@@ -46,11 +47,15 @@ commit
 git push origin master
 ```
 </br>
+
 4. 팀원들이 로컬에 프로젝트 Pull하기 : git clone도 가능
+
 ```
 git clone (url) : push한 초기 코드가 다운 받아짐
 ```
+
 </br>
+
 5. 팀원 각자의 브랜치를 생성하여 작업 + 6. 브랜치에 작업 한 내용을 push
 
 ```
@@ -66,6 +71,7 @@ git add .
 git commit -m "커밋에 대한 설명"
 git push origin (other.user)
 ```
+</br>
 7. Master 와 merge 하기 전 Pull Request + Pull Request 확인 후 Master와 Merge
 
 팀원
