@@ -28,7 +28,7 @@ git status : git 저장소의 상태를 확인
 
 1. 원격 저장소 (Github Repostory 생성)
 
-2.팀원을 Collaborator 추가하기
+2. 팀원을 Collaborator 추가하기
 </br>
 경로
 ```
@@ -45,12 +45,12 @@ add .
 commit
 git push origin master
 ```
-
+</br>
 4. 팀원들이 로컬에 프로젝트 Pull하기 : git clone도 가능
 ```
 git clone (url) : push한 초기 코드가 다운 받아짐
 ```
-
+</br>
 5. 팀원 각자의 브랜치를 생성하여 작업 + 6. 브랜치에 작업 한 내용을 push
 
 ```
@@ -68,24 +68,25 @@ git push origin (other.user)
 ```
 7. Master 와 merge 하기 전 Pull Request + Pull Request 확인 후 Master와 Merge
 
-#### 팀원
-
+팀원
+</br>
 - pull - request : 변경 승인 요청
     base : master <- compare : other.user
         
 - create pull request
 
-#### 팀장
-
+팀장
+</br>
 - GitHub에서 자동으로 base branch와 Conflicts가 있는지 검사 후 Merge(승인)이 가능함.
 
 **Merge가 되었다면 Base Branch에 Commit이 **
-
+</br></br>
 ### Fork
 
 1. 작업하고 싶은 Repository를 Fork 해오기
-</br></br>     
-     검색 후 찾은 Repository에 들어가 우측 상단의 folk 누르기
+
+- 검색 후 찾은 Repository에 들어가 우측 상단의 folk 누르기
+     
 2. 로컬에서 작업하기 + 3. 변경사항을 자신의 branch에 push
 ```
 mkdir -     // 작업환경구분
