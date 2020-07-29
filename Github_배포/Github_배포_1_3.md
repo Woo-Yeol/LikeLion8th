@@ -28,14 +28,11 @@ git status : git 저장소의 상태를 확인
 
 1. 원격 저장소 (Github Repostory 생성)
 
-2. 팀원을 Collaborator 추가하기
-</br>
+2. 팀원을 Collaborator 추가하기</br>
 경로
-
 ```
 GitHub - Repository - Settings - Manage access - Invite a collaborator
 ```
-
 3. 초기 프로젝트 Push
 
 **코드가 있는 Directory**
@@ -85,7 +82,7 @@ git push origin (other.user)
 </br>
 - GitHub에서 자동으로 base branch와 Conflicts가 있는지 검사 후 Merge(승인)이 가능함.
 
-**Merge가 되었다면 Base Branch에 Commit이 **
+**Merge가 되었다면 Base Branch에 Commit이**
 </br></br>
 ### Fork
 
