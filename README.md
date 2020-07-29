@@ -1,6 +1,6 @@
 # LikeLion 8th Coding Session
 Cheet Sheet
-LikeLion 8th represented staff
+LikeLion 8th 임우열
 
 ## 1학기 커리큘럼
 
