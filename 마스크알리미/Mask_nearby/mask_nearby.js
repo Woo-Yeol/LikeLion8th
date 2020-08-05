@@ -48,8 +48,6 @@ function keywordSearchCallback (data, status, pagination) {
     for(const data in maskData){
         drawMarker(data)
     }
-
-
     } 
 }
 
@@ -62,10 +60,24 @@ async function getMaskData(Lat, Lng) {
 }
 
 // 지도에 마커를 표시하는 함수입니다
-function drawMarker(maskData) {
+function drawMaker(maskData) {
+    let image ={
+        green: "./green.png",
+        yellow: "./yellow.png",
+        red: "./red.png",
+        grey: "./grey.png",
+    }
+
+    let imageSize = new kakao.maps.Size(32, 32);
+    let imageOption = { offset : new kakao.maps.Point(10, 15)};
+
+    // 마커 정보를 담은 마커 이미지를 생성
+    let markerImage = new kakao.map.markerImage(image.green, imafeSize, imageOption);
+
     // 마커를 생성하고 지도에 표시합니다
     var marker = new kakao.maps.Marker({
         map: map,
-        position: new kakao.maps.LatLng(maskData.lat, maskData.lng) 
+        position: new kakao.maps.LatLng(maskData.lat, maskData.lng),
+        image: markerImage, 
     });
 }
