@@ -7,6 +7,9 @@ var options = { //지도를 생성할 때 필요한 기본 옵션
 var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
 var ps = new kakao.maps.services.Places(); 
 
+// 마스크 데이터 API 주소
+let base_mask_url = "https://8oi9s0nnth.apigw.ntruss.com/corona19-masks/v1/storesByGeo/json?";
+// 2020.08 현재는 지원하지 않는 API
 
 // 버튼 누르거나 Enter 눌렀을 때 검색이 되도록 만들기
 let search_btn = document.querySelector(".search-btn");
@@ -39,7 +42,30 @@ function keywordSearch(keyword){
 // 키워드 검색 완료 시 호출되는 콜백함수 입니다
 function keywordSearchCallback (data, status, pagination) {
     if (status === kakao.maps.services.Status.OK) {
-        let center = new kakao.maps.LatLng(data[0].y, data[0].x); 
+    const center = new kakao.maps.LatLng(data[0].y, data[0].x); 
         map.setCenter(center);
+    const maskData = await getMaskData(data[0].y, data[0].x);
+    for(const data in maskData){
+        drawMarker(data)
+    }
+
+
     } 
+}
+
+async function getMaskData(Lat, Lng) {
+    let request_url = `${base_mask_url}lat=${Lat}&lng=${Lng}`;
+    let response = await fetch(request_url);
+    let result = await response.json();
+    console.log(result.stores);
+    return result.stores;
+}
+
+// 지도에 마커를 표시하는 함수입니다
+function drawMarker(maskData) {
+    // 마커를 생성하고 지도에 표시합니다
+    var marker = new kakao.maps.Marker({
+        map: map,
+        position: new kakao.maps.LatLng(maskData.lat, maskData.lng) 
+    });
 }
