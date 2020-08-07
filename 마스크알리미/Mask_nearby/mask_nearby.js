@@ -40,11 +40,12 @@ function keywordSearch(keyword){
 }
 
 // 키워드 검색 완료 시 호출되는 콜백함수 입니다
-function keywordSearchCallback (data, status, pagination) {
+async function keywordSearchCallback (data, status, pagination) {
     if (status === kakao.maps.services.Status.OK) {
     const center = new kakao.maps.LatLng(data[0].y, data[0].x); 
-        map.setCenter(center);
-    const maskData = await getMaskData(data[0].y, data[0].x);
+    map.setCenter(center);
+    const maskData = getMaskData(data[0].y, data[0].x);
+
     for(const data in maskData){
         drawMarker(data)
     }
@@ -72,7 +73,7 @@ function drawMaker(maskData) {
     let imageOption = { offset : new kakao.maps.Point(10, 15)};
 
     // 마커 정보를 담은 마커 이미지를 생성
-    let markerImage = new kakao.map.markerImage(image.green, imafeSize, imageOption);
+    let markerImage = new kakao.maps.MarkerImage(image.green, imafeSize, imageOption);
 
     // 마커를 생성하고 지도에 표시합니다
     var marker = new kakao.maps.Marker({
