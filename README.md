@@ -24,4 +24,4 @@ Github&배포_3 [Github 협업] **[[Summary](https://github.com/Woo-Yeol/LikeLio
 ### Django 기초 드리머리
 
 드리머리_1 [Djanog, 그게 뭐죠?] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_1.md)]**<br/>
-드리머리_2 [] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_2.md)]**<br/>
+드리머리_2 [Hello, Django] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_2.md)]**<br/>
