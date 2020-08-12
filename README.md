@@ -26,5 +26,6 @@ Github&배포_3 [Github 협업] **[[Summary](https://github.com/Woo-Yeol/LikeLio
 드리머리_1 [Django, 그게 뭐죠?] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_1.md)]**<br/>
 드리머리_2 [Hello, Django] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_2.md)]**<br/>
 드리머리_3 [Django가 관리하는 법] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_3.md)]**</br>
-드리머리_4 [Django로 나를 소개해볼게 #1] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_4.md)]**
-드리머리_5 [Django로 나를 소개해볼게 #2] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_5.md)]**
+드리머리_4 [Django로 나를 소개해볼게 #1] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_4.md)]**</br>
+드리머리_5 [Django로 나를 소개해볼게 #2] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_5.md)]**</br>
+드리머리_6 [Django는 중복을 싫어해] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/드리머리/드리머리_1_6.md)]**</br>
