@@ -38,3 +38,4 @@ Github&배포_3 [Github 협업] **[[Summary](https://github.com/Woo-Yeol/LikeLio
 자소설 닷컴_2 [Model & Database] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_2.md)]**</br>
 자소설 닷컴_3 [ModelForm] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_3.md)]**</br>
 자소설 닷컴_4 [PrimaryKey] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_4.md)]**</br>
+자소설 닷컴_5 [User #1] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_5.md)]**</br>
