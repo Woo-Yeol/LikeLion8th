@@ -42,3 +42,6 @@ Github&배포_3 [Github 협업] **[[Summary](https://github.com/Woo-Yeol/LikeLio
 자소설 닷컴_6 [User #2] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_6.md)]**</br>
 자소설 닷컴_7 [Foreign Key] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_7.md)]**</br>
 자소설 닷컴_8 [댓글 만들기] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_8.md)]**</br>
+자소설 닷컴_9 [글자수 세기] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/자소설닷컴/자소설닷컴_1_9.md)]**</br>
+
+## THE END
