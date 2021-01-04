@@ -9,6 +9,8 @@ LikeLion 8th 임우열
 Github&배포_1 [GitHub의 기초] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/Github_배포/Github_배포_1_1.md)]**<br/>
 Github&배포_2 [Netlify] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/Github_배포/Github_배포_1_2.md)]**<br/>
 Github&배포_3 [Github 협업] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/Github_배포/Github_배포_1_3.md)]**<br/>
+Github&배포_4 [Github EB 배포 1] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/Github_배포/Github_배포_1_4.md)]**<br/>
+Github&배포_5 [Github EB 배포 2] **[[Summary](https://github.com/Woo-Yeol/LikeLion8th/blob/master/Github_배포/Github_배포_1_5.md)]**<br/>
 
 ### 📌마스크 알리미
 **[[GitHub](https://github.com/Woo-Yeol/LikeLion_Mask_Nearby)]**<br/> 
