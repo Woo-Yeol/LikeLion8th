@@ -18,19 +18,20 @@ $ git init
 
 2. Local Repository와 Online Repository를 **연결**
 ```
-$ git remote add origin + 레포지토리 주소 (URL)
+$ git remote add origin[원격 저장소] + 레포지토리 주소[URL]
 ```
 </br>
 
-3. Directory 전체를 Staging Area로 올리기
+3. Directory 전체를 Staging Area로 올리기 / 파일의 일부를 스테이징하기
 ```
-$ git add .
+$ git add .[파일]
+$ git add -p [파일]
 ```
 </br>
 
 4. Repository로 'commit'하기
 ```
-$ git commit -m "원하는 내용"
+$ git commit -m "원하는 내용"[메세지]
 ```
 *-m : 설명을 추가 </br></br>*
 

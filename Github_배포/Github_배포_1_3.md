@@ -82,7 +82,7 @@ git push origin (other.user)
 </br>
 - GitHub에서 자동으로 base branch와 Conflicts가 있는지 검사 후 Merge(승인)이 가능함.
 
-**Merge가 되었다면 Base Branch에 Commit이**
+**Merge가 되었다면 Base Branch에 Commit이 이뤄진다.**
 </br></br>
 ### Fork
 
